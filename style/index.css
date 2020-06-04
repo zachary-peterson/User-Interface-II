@@ -1,1 +1,70 @@
-/* Add CSS styling here */
+* {
+    box-sizing: border-box;
+    /* border: 1px solid gold; */
+}
+
+header  {
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+}
+
+.header-container  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+    padding: 2% 2%; 
+}
+
+.header-container h1  {
+    padding: .5% 0;
+    width: 25%;
+    font-size: 2rem;
+}
+
+.nav  {
+    width: 40%;
+    display: flex;
+}
+
+.nav a {
+    padding: 2% 10%;
+    border: 1px solid #FFFFFF;
+}
+
+.featured  {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;   
+    margin: 5% 0;
+}
+
+.feat-proj  {
+    width: 45%;
+    height: 50vh;
+}
+
+.brief-about  {
+    width: 45%;
+    height: 50vh;
+}
+
+.projects-container  {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 2.5%;
+}
+
+.projects  {
+    width: 20%;
+    margin: 2.5% 2.5%;
+}
+
+.foot-container  {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
