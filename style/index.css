@@ -158,9 +158,10 @@ footer  {
 }
 
 .foot-container h2  {
+    text-align: center;
     color: #FFFFFF;
     font-size: 2.5rem;
-    margin: 10px 0 20px;
+    margin: 10px 0 50px;
 }
 
 .foot-container a  {
