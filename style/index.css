@@ -265,4 +265,8 @@ footer  {
     .about-me  {
         font-size: 1rem;
     }
+
+    .foot-container h2  {
+        font-size: 2rem;;
+    }
   }
