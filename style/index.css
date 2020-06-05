@@ -118,6 +118,10 @@ section  {
     margin: 0 0 2% 0;
 }
 
+.brief-about p {
+    letter-spacing: 1.5px;
+}
+
 .projects-container  {
     display: flex;
     flex-flow: row wrap;
