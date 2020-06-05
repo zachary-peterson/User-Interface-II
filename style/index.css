@@ -97,9 +97,13 @@ section  {
 .brief-about  {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+    text-align: center;
     align-items: center;
-    font-size: 1.5em;
+    padding: 0 .75%;
+    line-height: 1.5;
+    font-size: 2em;
     width: 45%;
     height: 50vh;
     border: 5px solid white;
@@ -109,7 +113,7 @@ section  {
 
 
 .brief-about h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-family: 'Cedarville Cursive', cursive;
     margin: 0 0 2% 0;
 }
