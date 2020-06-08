@@ -236,6 +236,10 @@ footer  {
         text-align: center;
     }
 
+    .nav a:hover {
+        font-size: 1.25rem;;
+    }
+
     .brief-about{
         padding: 0 2%;
         height: 50vh;
@@ -324,6 +328,16 @@ footer  {
     .foot-container h2  {
         font-size: 2rem;;
     }
+
+    .nav a:hover {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 2.5% 10%;
+        text-decoration: none;
+        background-color: #3d9998;
+        font-size: 2rem;
+        color: #FFFFFF;
   }
 
   @media(max-width: 500px){
