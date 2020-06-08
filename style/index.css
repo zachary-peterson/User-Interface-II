@@ -214,7 +214,7 @@ footer  {
     padding: 2.5% 2.5%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     /* For mobile phones: */
     .nav  {
         display: flex;
