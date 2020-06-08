@@ -110,18 +110,15 @@ section  {
     border: 5px solid white;
     background-color: #2d706f;
     color:#FFFFFF;
+    letter-spacing: 1.5px;
 }
 
 
 .brief-about h2 {
     font-size: 3rem;
     font-family: 'Cedarville Cursive', cursive;
-    margin-bottom: 2%;
 }
 
-.brief-about p {
-    letter-spacing: 1.5px;
-}
 
 .projects-container  {
     display: flex;
@@ -139,6 +136,15 @@ section  {
     margin: 2.5% 2.5%;
     border: 5px solid #FFFFFF;
     background-color: #303030;
+    color: rgba(255, 255, 255, 0);
+}
+
+.projects:hover {
+    color: rgba(255, 255, 255, 1);
+    text-shadow: 3px 3px #000000;
+    border: 0;
+    font-size: 2rem;
+    opacity: 75%;
 }
 
 .projects img {
@@ -150,20 +156,6 @@ section  {
 
 .projects p{
     position: absolute;
-    opacity: 0%;
-    font-size: 2rem;
-    background-color: rgba(48, 48, 48, 0);
-    color: #FFFFFF;
-    object-fit: cover;
-}
-
-.projects p:hover{
-    background-color: rgba(48, 48, 48, .5);
-    opacity: 100%;
-}
-
-.projects:hover  {
-    border: 0;
 }
 
 
