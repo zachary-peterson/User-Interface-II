@@ -24,10 +24,10 @@ header  {
 
 .header-container h1  {
     padding: .5% 0;
-    width: 50%;
+    width: 70%;
     font-size: 3.5rem;
     font-family: 'Lora', serif;
-    margin: 0 0 .5% 0;
+    margin-bottom: .5%;
     font-family: 'Playfair Display', serif;
 }
 
@@ -44,7 +44,7 @@ header  {
     background-color: #2d706f;
     font-size: 1.25rem;
     color: #FFFFFF;
-    min-width: 40%;
+    width: 40%;
     text-align: center;
 }
 
@@ -98,7 +98,6 @@ section  {
 
 .brief-about  {
     display: flex;
-    justify-content: center;
     flex-flow: column wrap;
     justify-content: center;
     text-align: center;
@@ -117,7 +116,7 @@ section  {
 .brief-about h2 {
     font-size: 3rem;
     font-family: 'Cedarville Cursive', cursive;
-    margin: 0 0 2% 0;
+    margin-bottom: 2%;
 }
 
 .brief-about p {
@@ -129,6 +128,7 @@ section  {
     flex-flow: row wrap;
     justify-content: space-evenly;
     margin: 0 auto;
+    width: 100%;
 }
 
 .projects  {
@@ -148,6 +148,19 @@ section  {
     object-fit: cover;
 }
 
+.projects p{
+    position: absolute;
+    opacity: 0%;
+    font-size: 2rem;
+    background-color: rgba(48, 48, 48, 0);
+    color: #FFFFFF;
+    object-fit: cover;
+}
+
+.projects p:hover{
+    background-color: rgba(48, 48, 48, .5);
+    opacity: 100%;
+}
 
 .projects:hover  {
     border: 0;
@@ -184,6 +197,7 @@ footer  {
     border: 5px solid #FFFFFF;
     color: white;
     text-decoration: none;
+    text-align: center;
     font-size: 1.5rem;
 }
 
@@ -216,7 +230,22 @@ footer  {
     padding: 2.5% 2.5%;
 }
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 1200px) {
+    .nav a  {
+        width: 100%;
+        text-align: center;
+    }
+
+    .brief-about{
+        padding: 0 2%;
+        height: 50vh;
+    }
+
+    .brief-about h2{
+        font-size: 2.5rem;
+    }
+
+@media (max-width: 800px) {
     /* For mobile phones: */
     .nav  {
         display: flex;
@@ -225,8 +254,8 @@ footer  {
         align-items: center;
     }
 
-    .button  {
-        width: 70%;
+    .nav a  {
+        width: 100%;
     }
 
     .header-container nav , .header-container h1  {
@@ -248,8 +277,8 @@ footer  {
         flex-flow: column wrap;
         justify-content: space-around; 
         align-items: center;
-        margin: 5% 5%;
-        width: 90%;
+        margin: 0 auto;
+        width: 95%;
         height: 90%;
     }
 
@@ -262,7 +291,8 @@ footer  {
     }
 
     .brief-about  {
-        padding: 25% 25%;
+        padding: 10% 5%;
+       
     }
 
     .brief-about, .feat-proj  {
@@ -273,6 +303,10 @@ footer  {
         width: 95%;
         height: 95%;
         margin: 2.5% 2.5%;
+    }
+
+    .brief-about h2{
+        font-size: 2.5rem;
     }
 
     .foot-container a  {
@@ -290,4 +324,14 @@ footer  {
     .foot-container h2  {
         font-size: 2rem;;
     }
+  }
+
+  @media(max-width: 500px){
+      .projects-container{
+          flex-flow: column nowrap;
+      }
+
+      .projects{
+          width: 90%;
+      }
   }
