@@ -44,6 +44,8 @@ header  {
     background-color: #2d706f;
     font-size: 1.25rem;
     color: #FFFFFF;
+    min-width: 40%;
+    text-align: center;
 }
 
 .nav a:hover {
@@ -223,6 +225,10 @@ footer  {
         align-items: center;
     }
 
+    .button  {
+        width: 70%;
+    }
+
     .header-container nav , .header-container h1  {
         display: flex;
         flex-flow: column wrap;
@@ -231,6 +237,11 @@ footer  {
         text-align: center;
         margin: 0 auto;
     }
+
+    .header-container h1 {
+        margin-bottom: 2.5%;
+    }
+
 
     .featured  {
         display: flex;
@@ -245,9 +256,9 @@ footer  {
 
     .projects  {
         display: flex;
-        flex-flow: column wrap;
-        width: 50%;
-        margin: 5% 5%;
+        flex-flow: row wrap;
+        width: 40%;
+        margin: 5% auto;
     }
 
     .brief-about  {
