@@ -143,7 +143,7 @@ section  {
     color: rgba(255, 255, 255, 1);
     text-shadow: 3px 3px #000000;
     border: 0;
-    font-size: 2rem;
+    font-size: 1.75rem;
     opacity: 75%;
 }
 
@@ -262,7 +262,7 @@ textarea{
     padding: 2.5% 2.5%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .nav a  {
         width: 100%;
         text-align: center;
